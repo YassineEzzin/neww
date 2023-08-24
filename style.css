@@ -1,0 +1,164 @@
+body{
+    margin: 0px 200px;
+}
+.logo1 {
+    height: 33px;
+    width: 268px;
+    margin-top: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    Position: sticky; Top:0;
+    background-color: white;
+    
+
+  }
+  .nav-links{
+    display: flex;
+
+  }
+  .nav-links a:hover{
+    color: #00b39b;
+  }
+  .nav-links li{
+    margin-right:20px;
+    font: 15px roboto, arial, sans-serif ;
+    list-style: none;
+  }
+  .nav-links a{
+    color: #ababab;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .lead{
+    text-align: center;
+    padding: 50px;
+  }
+  .prs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .prs p{
+    display: block;
+    font-family: Arial,sans-serif;
+    color: #747474;
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400
+  }
+  .mkn{
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2em;
+    margin: .67em 0
+  }
+  .marketplace{
+    display: flex;
+  }
+  .item-1 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.item-2 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+  .item-3 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+  .marketplace div:first-child{
+    color: #fff;
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    }
+
+
+
+
+
+.carts{
+    
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    padding-top: 70px;
+}
+
+section .cart1{
+   
+background-color: #00ccb1;
+border: 1px solid transparent;
+border-radius: 10px;
+padding: 32px 32px
+
+}
+section .cart2{
+background-color: rgb(28, 106, 231); 
+border: 1px solid transparent;
+border-radius: 10px;
+padding: 30px;
+}
+section .cart3{
+    background-color: black;
+    border: 1px solid transparent;
+border-radius: 10px;
+padding: 30px;
+}
+
+.name{
+    font-size: 1.625em;
+    font-weight: 400;
+    
+}
+
+.pb{
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: 24px 'work sans',ariel, sans serif
+
+
+}
+
+
+#select1{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+       -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding:0px 38.4px 0px 0px ;
+   font: 19.2px roboto,ariel sans-serif;
+   margin: 30px;
+   color: white;
+   margin: 80px 80px 0px 0px;
+
+}
+select option{
+  color: black;
+}
